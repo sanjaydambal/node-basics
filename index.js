@@ -4,5 +4,14 @@
 // const sum2 = add(8,3);
 // console.log(sum);
 // console.log(sum2);
-require("./batman");
-require("./spiderman");
+// require("./batman");
+// require("./spiderman");
+const SuperHero = require ("./super-hero");
+console.log(SuperHero.getName());
+SuperHero.setName("Spidey");
+console.log(SuperHero.getName());
+// lets create new instance
+const newSuper = require ("./super-hero");
+console.log(newSuper.getName());
+newSuper.setName("Iron-Man");
+console.log(newSuper.getName());
