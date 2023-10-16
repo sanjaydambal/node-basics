@@ -1,9 +1,9 @@
- const math = require("./add")
+ const math = require("./add");
+ const {add,sub}= math;
 // console.log("hello lakshmikant i have started learning node-Js");
- const sum = math.add(5,4);
- const sum2 = math.sub(8,3);
-console.log(sum);
- console.log(sum2);
+ console.log(add(5,4));
+ console.log(sub(5,4));
+
 // require("./batman");
 // require("./spiderman");
 // const SuperHero = require ("./super-hero");

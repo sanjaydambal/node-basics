@@ -1,11 +1,11 @@
-const add = (x,y)=>{
+module.exports. add = (x,y)=>{
     return x+y
 }
 
-const sub = (a,b)=>{
+module.exports.sub = (a,b)=>{
     return a-b
 }
- module.exports = {
-    add,
-    sub 
- }
+//  module.exports = {
+//     add,
+//     sub 
+//  }
