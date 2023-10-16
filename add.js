@@ -1,4 +1,4 @@
-const add = (x,y)=>{
+module.exports = (x,y)=>{
     return x+y
 }
-module.exports = add;
+// module.exports = add;
