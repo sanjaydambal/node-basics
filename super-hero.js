@@ -9,4 +9,5 @@ this.name = name
  this.name = name
     }
 }
-module.exports = new Superhero("Batman");
+// module.exports = new Superhero("Batman");
+module.exports = Superhero;

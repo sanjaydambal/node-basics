@@ -6,12 +6,19 @@
 // console.log(sum2);
 // require("./batman");
 // require("./spiderman");
+// const SuperHero = require ("./super-hero");
+// console.log(SuperHero.getName());
+// SuperHero.setName("Spidey");
+// console.log(SuperHero.getName());
+// // lets create new instance
+// const newSuper = require ("./super-hero");
+// console.log(newSuper.getName());
+// newSuper.setName("Iron-Man");
+// console.log(newSuper.getName());
 const SuperHero = require ("./super-hero");
-console.log(SuperHero.getName());
-SuperHero.setName("Spidey");
-console.log(SuperHero.getName());
-// lets create new instance
-const newSuper = require ("./super-hero");
-console.log(newSuper.getName());
-newSuper.setName("Iron-Man");
-console.log(newSuper.getName());
+const batman = new SuperHero("Batman");
+console.log(batman.getName());
+batman.setName("Black-Widow");
+console.log(batman.getName());
+const antman = new SuperHero("Antman");
+console.log(antman.getName());
